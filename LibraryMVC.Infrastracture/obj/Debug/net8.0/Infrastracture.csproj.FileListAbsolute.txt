@@ -1,0 +1,6 @@
+C:\Users\boris\source\repos\Lab1\LibraryMVC.Infrastracture\obj\Debug\net8.0\Infrastracture.csproj.AssemblyReference.cache
+C:\Users\boris\source\repos\Lab1\LibraryMVC.Infrastracture\obj\Debug\net8.0\Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boris\source\repos\Lab1\LibraryMVC.Infrastracture\obj\Debug\net8.0\Infrastracture.AssemblyInfoInputs.cache
+C:\Users\boris\source\repos\Lab1\LibraryMVC.Infrastracture\obj\Debug\net8.0\Infrastracture.AssemblyInfo.cs
+C:\Users\boris\source\repos\Lab1\LibraryMVC.Infrastracture\obj\Debug\net8.0\Infrastracture.csproj.CoreCompileInputs.cache
+C:\Users\boris\source\repos\Lab1\LibraryMVC.Infrastracture\obj\Debug\net8.0\Infrastracture.sourcelink.json
