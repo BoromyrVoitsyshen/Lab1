@@ -1,18 +1,26 @@
-﻿namespace Domain.Entities
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace Domain.Entities;
+
+/// <summary>
+/// Books that are currently borrowed
+/// </summary>
+public partial class BorrowedBook : Entity
 {
-    public class BorrowedBook : Entity
-    {
-        public int bookID { get; set; }
-        public int readerID { get; set; }
-        public int borrowStart { get; set; }
-        public int borrowTime { get; set; }
-        public BorrowedBook()
-        {
-            ID = 0;
-            bookID = 0;
-            readerID = 0;
-            borrowStart = 0;
-            borrowTime = 0;
-        }
-    }
+    [Display(Name = "Книга")]
+    public int BookId { get; set; }
+    [Display(Name = "Читач")]
+    public int ReaderId { get; set; }
+    [Required(ErrorMessage = "Поле має бути не порожнім")]
+    [Display(Name = "Початок позичення")]
+    public int BorrowStart { get; set; }
+    [Required(ErrorMessage = "Поле має бути не порожнім")]
+    [Display(Name = "Термін позичення")]
+    public int BorrowTime { get; set; }
+
+    public virtual Book Book { get; set; } = null!;
+
+    public virtual Reader Reader { get; set; } = null!;
 }
